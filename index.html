@@ -6,7 +6,20 @@
     <title>JANINE ARELLANO</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload=display_ct();>
+    <script type="text/javascript">
+
+        function display_c() {
+            var refresh = 1000;
+            mytime = setTimeout('display_ct()', refresh)
+        }
+
+        function display_ct() {
+            var x = new Date()
+            document.getElementById('ct').innerHTML = x;
+            display_c();
+        }
+    </script>
     <nav class="navbar">
         <ul>
             <li><a href="#Home">Home</a></li>
@@ -78,5 +91,6 @@
             <input type="submit" value="SEND" id="Send">
         </form>
     </section>
+      <center><p id='ct'></p></center>
 </body>
 </html>
