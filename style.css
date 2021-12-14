@@ -53,7 +53,7 @@ html{
 	right: 0;
 	background: url('3.jpg');
 	background-repeat: no-repeat; 
-	align: center;
+	background-attachment: fixed;
 	background-size: center/cover;
 	height: 840px;
 	width: 100%;
