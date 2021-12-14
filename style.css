@@ -208,5 +208,7 @@ html{
 	cursor: pointer;
 	box-shadow: 0 0 10px white ;
 }
-
+#ct {
+    font-size: 22px;
+}
 
