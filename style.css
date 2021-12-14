@@ -51,9 +51,7 @@ html{
 	position: absolute;
 	top: 0;
 	right: 0;
-	background-repeat: no-repeat; 
-	background-attachment: fixed;
-	background-size: center/cover;
+	background: no-repeat center center/cover;
 	height: 840px;
 	width: 100%;
 	z-index: -1;
