@@ -51,7 +51,10 @@ html{
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: url('3.jpg') no-repeat center center/cover;
+	background: url('3.jpg');
+	background-repeat: no-repeat; 
+	align: center;
+	background-size: center/cover;
 	height: 840px;
 	width: 100%;
 	z-index: -1;
